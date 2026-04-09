@@ -1,0 +1,10 @@
+---
+- name: Remove Ansible work directory
+  ansible.builtin.file:
+    path: /tmp/marketplace-deploy
+    state: absent
+
+- name: Clean apt cache
+  ansible.builtin.apt:
+    autoclean: true
+    autoremove: true
