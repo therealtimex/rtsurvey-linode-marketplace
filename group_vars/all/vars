@@ -1,6 +1,6 @@
 ---
 # Application
-rtsurvey_image:      "rtawebteam/rta-smartsurvey:survey-dockerize"
+rtsurvey_image:      "rtawebteam/rtcloud:survey-public"
 rtsurvey_deploy_dir: "/opt/rtsurvey"
 rtsurvey_project_id: "rtsurvey"
 embed_keycloak:      true
